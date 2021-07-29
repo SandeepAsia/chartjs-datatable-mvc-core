@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>DatatablesParser</AssemblyName>
+    <PackageId>DatatablesParser-core</PackageId>
+    <PackageVersion>1.5.0</PackageVersion>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>C# Datatables Datatables.net javascript parser json Linq entity framework asp.net mvc grid table database query builder core</PackageTags>
+    <PackageProjectUrl>https://github.com/garvincasimir/csharp-datatables-parser</PackageProjectUrl>
+    <title>C# DataTables.net Parser Core</title>
+    <authors>Garvin Casimir</authors>
+    <description>
+      A C# Server side component for the popuplar jQuery datatables plugin http://datatables.net/ suitable for asp.net core and other netstandard frameworks
+    </description>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Linq.Queryable" Version="4.3.0" />
+    <PackageReference Include="System.Reflection.TypeExtensions" Version="4.3.0" />
+    <PackageReference Include="Microsoft.Extensions.Primitives" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>
